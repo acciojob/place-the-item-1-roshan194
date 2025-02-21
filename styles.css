@@ -1,11 +1,11 @@
 /* Container holding all the items */
 .holder {
-    display: flex; 
-    justify-content: space-around;  /* Spaces items evenly */
-    align-items: center;            /* Aligns items vertically */
-    flex-wrap: wrap;                /* Prevents items from squishing, moves to next row if needed */
-    height: 200px;                  /* Adjust height as per requirement */
-    width: 100%;                    /* Full width */
+    display: flex;
+    justify-content: space-between; /* First and last items touch edges, space between elements */
+    align-items: center;
+    flex-wrap: wrap; /* Items move to the next row if needed */
+    width: 100%; 
+    padding: 10px; /* Optional padding for spacing */
 }
 
 /* Individual flex items */
